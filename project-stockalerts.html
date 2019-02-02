@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>Stock Alerts | Ronak Patel</title>
+	<meta name="description" content="Ronak Patel">
+	<meta name="keywords" content="Ronak Patel, Entrepreneur, Traveler, Inventor">
+	<link href="style.css" rel="stylesheet" />
+	<link href="frame.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+	<style>
+		h2 {
+			font-weight: bold;
+			font-size: 200%;
+		}
+		a:link {
+			color: #00ACE6;
+		}
+		a:visited {
+  			color: #00ACE6;
+		}
+		a:hover {
+    		color: #000000;
+		}
+	</style>
+</head>
+<body>
+	<div id="main-bg01">&nbsp;</div>
+	<div id="main-wrap">
+		<div id="head" class="clearfix">
+		<a href="#" title="Menu" id="pull">Menu</a>
+	</div><!--end of #head-->
+	
+	<!-- Sidebar -->
+	<div id="side-wrap" class="clearfix">
+		<div class="tabs">
+			<ul class="main-menu clearfix">
+				<li>
+					<a href="index.html" class="smooth-trans" title="Ronak Patel">Home</a>
+				</li>
+				<li>
+					<a href="projects.html" class="smooth-trans" title="Projects">Projects</a>
+				</li>
+				<li>
+					<a href="about.html" class="smooth-trans" title="About">About</a>
+				</li>
+				<li>
+					<a href="contact.html" class="smooth-trans" title="Contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- End of Sidebar -->
+
+	<div id="project-content" class="clearfix">
+	
+		<div class="sub-wrap clearfix">
+			<div class="h1-container center clearfix">
+				<h1 class="smooth-trans">
+					Stock Alerts
+				</h1>
+			</div>
+		</div>
+		
+		<div class="clear-wrap">
+			
+			<img src="images/googlesheets.png"/>
+			<div id="body-text">
+				<p>
+					As a markets enthusiast, I noticed there were no options online to receive stock alerts based off a specific percentage down. Some sites had email and in-app alerts but only at fixed percentages (5%, 10%, etc). I leveraged <a href="https://zapier.com/" target="_blank"><span style="color: ##00ACE6">Zapier’s</span></a> Google Sheets integration to trigger automated email alerts when a stock price lowered by a certain percentage. I used <a href="https://developers.google.com/sites/faq_gdata" target="_blank"><span style="color: ##00ACE6">Google Finance's</span></a> data to display the previous day's stock price and create an alerting price. For some stocks that I believed to be fairly or undervalued, I set the alert at -3%. For stocks that I am interested in purchasing, but believed to be overvalued, I set the percentage alert at -8%. I hope this can be useful for your financial goals and keeping up-to-date with the market.  
+				</p>
+
+				<p>
+					Link to a sample <a href="https://docs.google.com/spreadsheets/d/1W3_LuGNcr86itwMHrpPQUlRn2SbKLQAJ1VbNSyMX8sI/edit?usp=sharing" target="_blank"><span style="color: ##00ACE6">stock alerts Google Sheet</span></a>. Feel free to make a copy and create your own list :) 
+				</p>
+			</div>
+		</div>
+		<p>&nbsp;
+		</div>
+	</div>		
+	</div><!--End #main-wrap-->
+
+	<table id="div-load">
+		<tr><td style="vertical-align: middle; text-align: center;">
+				<img src="images/loader.gif" class="center" />
+		</td></tr>
+	</table>
+	<!--Javascripts Here!-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/responsiveslides.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+	<!--Google Analytics!-->
+	<script>
+	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  	ga('create', 'UA-61451252-1', 'auto');
+	  	ga('send', 'pageview');
+	</script>
+</body>
+</html>

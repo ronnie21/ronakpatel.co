@@ -1,6 +1,6 @@
 /*! ResponsiveSlides.js v1.54
- * http://responsiveslides.com
- * http://viljamis.com
+ * https://responsiveslides.com
+ * https://viljamis.com
  *
  * Copyright (c) 2011-2012 @viljamis
  * Available under the MIT license

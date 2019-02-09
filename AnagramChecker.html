@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Anagram Checker</title>
-  <script src="http://code.jquery.com/jquery-latest.min.js"type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-latest.min.js"type="text/javascript"></script>
 </head>
 
 <body>
@@ -38,14 +38,14 @@ $(document).ready(function() {
     if (str1.length !== str2.length) {
         return false;
     }
-    
+
     var sortstr1 = str1.split('').sort().join('');
     var sortstr2 = str2.split('').sort().join('');
 
     return (sortstr1 === sortstr2);
 }
     // THAT WAS THE FUNCTION :D
-    
+
     $('.AnagramChecker').on('click', function(e) {
         e.preventDefault();
         if($('#string1').val() == '') {

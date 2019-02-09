@@ -1,10 +1,10 @@
 /*--------------------------Media Queries------------------------------------*/
 @media screen and (max-width: 980px)
-{	
+{
 	.clear-wrap{width: 96%;}
 	#main-bg{background-size: auto 100%;}
 }
- 
+
 @media screen and (max-width: 768px)
 {
 	.slide{line-height: 1.3em;}
@@ -18,27 +18,25 @@
 }
 
 @media screen and (max-width: 500px)
-{		
+{
 	.h1-container{width: auto; background: none;}
 	h1{font-size: 4.5em;}
-	
+
 	.main-menu li a{font-size: 1em;}
 	#side-wrap .main-menu {margin-top: 30px;}
 	.container ul li{width: 96%;}
 	.top-wrap, .sub-wrap{padding: 100px 0;}
-	
+
 	#footer span{font-size: 1.08em;}
 	.contact h1{font-size: 4em;}
 	#project-content .sub-wrap{padding-top: 60px;}
 }
 
 @media screen and (max-width: 360px)
-{	
+{
 	html,body{font-size: 11px;}
 	h1{font-size: 4.5em;}
 	#main-wrap.open {left: -250px;}
 	#side-wrap{width: 250px; right: -250px;}
 	#footer{font-size: .92em;}
 }
-
-	

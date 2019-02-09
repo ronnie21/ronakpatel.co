@@ -86,7 +86,8 @@ body{
 }
 #main-bg01{
 	opacity: .12;
-	position: fixed;}
+	background-attachment: fixed;
+}
 #head{
 	width: 100%;
 	position: relative;

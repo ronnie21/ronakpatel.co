@@ -271,7 +271,7 @@ body{
 	#about, #project-content{
 		overflow: hidden;
 		padding: 5% 0 0 0;
-		text-align: center;
+		text-align: left;
 	}
 	#body-text{
 		overflow: hidden;
